@@ -1,0 +1,715 @@
+/* X large screens  */
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    header {
+        padding: 10px;
+    }
+
+    header .header-caption {
+        padding: 0px;
+    }
+
+    header .container {
+        padding: 50px;
+    }
+
+    .features .container {
+        padding: 100px;
+    }
+
+    .service .container {
+        padding: 50px;
+    }
+
+    .skills .container {
+        padding: 50px;
+    }
+
+    .work .container {
+        padding: 50px;
+    }
+
+    .pricing .container {
+        padding: 50px;
+    }
+
+    .video .container {
+        padding: 50px;
+    }
+
+    footer .container {
+        padding: 50px;
+    }
+}
+
+/*  large screens  */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    nav .container {
+        width: 100%;
+    }
+
+    nav .container .mega-menu ul li {
+        width: 45%;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header .header-caption {
+        padding: 0px;
+    }
+
+    header .container {
+        padding: 10px;
+    }
+
+    header .header-image {
+        padding: 5px;
+    }
+
+    .service .container {
+        padding: 50px;
+    }
+
+    .skills .container {
+        padding: 50px;
+    }
+
+    .work .container {
+        padding: 50px;
+    }
+
+    .pricing .container {
+        padding: 50px;
+    }
+
+    .video .container {
+        padding: 50px;
+    }
+
+    .discount .right {
+
+        padding: 50px;
+
+    }
+
+    .discount .layer {
+        padding: 50px;
+    }
+
+    footer .container {
+        padding: 50px;
+    }
+}
+
+/* Medium screens  */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    nav .container {
+        width: 95%;
+    }
+
+    nav .container>ul li .item {
+        padding: 20px 10px;
+    }
+
+    nav .container .mega-menu .image {
+        display: none;
+    }
+
+    nav .container .mega-menu ul {
+        width: 100%;
+
+    }
+
+    nav .container .mega-menu ul li {
+        width: 48.5%;
+    }
+
+    header .header-image {
+        display: none;
+    }
+
+    header .header-caption {
+        width: 100%;
+        /* padding: 0; */
+    }
+
+    header .container {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .testimonials .container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .team .container {
+        padding: 10px;
+    }
+
+    .service .container {
+        padding: 25px;
+    }
+
+    .skills .image {
+        display: none;
+    }
+
+    .skills .container {
+        padding: 25px;
+    }
+
+    .work .container {
+        padding: 25px;
+    }
+
+    .events .image {
+        display: none;
+    }
+
+    .events .events-content {
+        width: 100%;
+    }
+
+    .events .container {
+        padding: 25px;
+    }
+
+    .pricing .container {
+        padding: 25px;
+    }
+
+    .video .container .left {
+        width: 100%;
+    }
+
+    .video .container .right {
+        width: 100%;
+        background-color: #e2e2e2;
+        padding: 10px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .video .container {
+        padding: 25px;
+    }
+
+    .discount .right {
+        width: 100%;
+        padding: 50px;
+
+    }
+
+    .discount .layer {
+        padding: 50px;
+    }
+
+    .discount .left {
+        width: 100%;
+    }
+
+    footer .container {
+        padding: 25px;
+    }
+}
+
+/* Small screens  */
+@media screen and (min-width:567px) and (max-width:767px) {
+    nav .container {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .container>ul li .item {
+        padding: 20px 15px;
+    }
+
+    nav .container .mega-menu .image {
+        display: none;
+    }
+
+    nav .container .mega-menu ul {
+        width: 100%;
+
+    }
+
+    nav .container .mega-menu ul li {
+        width: 100%;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        text-align: start;
+    }
+
+    header .header-image {
+        display: none;
+    }
+
+    header .header-caption {
+        width: 100%;
+        padding: 0px;
+        margin-top: 80px;
+    }
+
+    header .container {
+        padding: 10px;
+        text-align: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    header .header-caption h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 5px;
+    }
+
+    header .header-caption p {
+        font-size: 18px;
+        line-height: 31px;
+        color: #666;
+        padding: 5px;
+    }
+
+    header::before {
+        height: 85%;
+        -webkit-transform: skewY(-10deg);
+        -moz-transform: skewY(-10deg);
+        -ms-transform: skewY(-10deg);
+        -o-transform: skewY(-10deg);
+        transform: skewY(-10deg);
+        z-index: -1;
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+    .articles .container {
+        padding: 0 50px;
+    }
+
+    .gallery .container {
+        padding: 0 50px;
+    }
+
+    .features .container {
+        padding: 50px;
+    }
+
+    .testimonials .container {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .team .container {
+        padding: 10px;
+    }
+
+    .service .container {
+        padding: 20px;
+    }
+
+    .skills .image {
+        display: none;
+    }
+
+    .skills .container {
+        padding: 20px;
+    }
+
+    .work .container {
+        padding: 20px;
+    }
+
+    .work .container .work-items .item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    .work .container .work-items .item-content {
+        width: 100%;
+    }
+
+    .work .container .work-items .image-item {
+        width: 20%;
+        padding: 10px;
+    }
+
+    .events .image {
+        display: none;
+    }
+
+    .events .events-content {
+        width: 100%;
+    }
+
+    .events .container {
+        padding: 20px;
+    }
+
+    .events form input[type="email"] {
+        width: 100%;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+
+    }
+
+    .events form input[type="submit"] {
+        width: 100%;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+
+    }
+
+    .events form {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 10px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+    }
+
+    .pricing .container {
+        padding: 20px;
+    }
+
+    .video .container .left {
+        width: 100%;
+    }
+
+    .video .container .right {
+        width: 100%;
+        background-color: #e2e2e2;
+        padding: 10px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .video .container {
+        padding: 20px;
+    }
+
+    .discount .right {
+        width: 100%;
+        padding: 25px;
+
+    }
+
+    .discount .layer {
+        padding: 25px;
+    }
+
+    .discount .left {
+        width: 100%;
+    }
+
+    footer .container {
+        padding: 20px;
+    }
+}
+
+/* X Small screens  */
+@media screen and (max-width:566px) {
+    nav .container {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .container>ul li .item {
+        padding: 20px 15px;
+        width: 100%;
+    }
+
+    nav .container .mega-menu .image {
+        display: none;
+    }
+
+    nav .container .mega-menu ul {
+        width: 100%;
+
+    }
+
+    nav .container .mega-menu ul li {
+        width: 100%;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        text-align: start;
+        margin: 1px;
+    }
+
+    header .header-image {
+        display: none;
+    }
+
+    header .header-caption {
+        width: 100%;
+        padding: 0px;
+        margin-top: 80px;
+    }
+
+    header .container {
+        padding: 10px;
+        text-align: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    header .header-caption h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 5px;
+    }
+
+    header .header-caption p {
+        font-size: 18px;
+        line-height: 31px;
+        color: #666;
+        padding: 5px;
+    }
+
+    header::before {
+        height: 85%;
+        -webkit-transform: skewY(-10deg);
+        -moz-transform: skewY(-10deg);
+        -ms-transform: skewY(-10deg);
+        -o-transform: skewY(-10deg);
+        transform: skewY(-10deg);
+        z-index: -1;
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+    .articles .container {
+        padding: 0 50px;
+    }
+
+    .gallery .container {
+        padding: 0 50px;
+    }
+
+    .features .container {
+        padding: 50px;
+    }
+
+    .testimonials .container {
+        padding: 10px;
+    }
+
+    .team .container {
+        padding: 10px;
+    }
+
+    .service .container {
+        padding: 10px;
+    }
+
+    .skills .image {
+        display: none;
+    }
+
+    .skills .container {
+        padding: 10px;
+    }
+
+    .work .container {
+        padding: 10px;
+    }
+
+    .work .container .work-items .item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    .work .container .work-items .item-content {
+        width: 100%;
+    }
+
+    .work .container .work-items .image-item {
+        width: 20%;
+        padding: 10px;
+    }
+
+    .events .image {
+        display: none;
+    }
+
+    .events .events-content {
+        width: 100%;
+    }
+
+    .events .container {
+        padding: 10px;
+    }
+
+    .events form input[type="email"] {
+        width: 100%;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+
+    }
+
+    .events form input[type="submit"] {
+        width: 100%;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+
+    }
+
+    .events form {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 10px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+    }
+
+    .pricing .container {
+        padding: 10px;
+    }
+
+    .video .container {
+        padding: 10px;
+    }
+
+    .video .container .left {
+        width: 100%;
+    }
+
+    .video .container .right {
+        width: 100%;
+        background-color: #e2e2e2;
+        padding: 10px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .discount .right {
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    .discount .layer {
+        padding: 15px;
+    }
+
+    .discount .left {
+        width: 100%;
+    }
+
+    footer .container {
+        padding: 10px;
+    }
+}
